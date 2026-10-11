@@ -1,0 +1,7 @@
+@"
+secrets.toml
+.streamlit/secrets.toml
+users.db
+__pycache__/
+*.pyc
+"@ | Set-Content -Encoding utf8 .gitignore
